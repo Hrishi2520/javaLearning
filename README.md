@@ -18,3 +18,7 @@
 - Account Example for Obj creation.
 - Default Constructor and Parameterized Constructor.
 - static method for cube finding.
+
+## 11-12-2022
+- Inheritance Example.
+- Single Inheritance.
