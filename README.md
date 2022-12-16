@@ -22,3 +22,13 @@
 ## 11-12-2022
 - Inheritance Example.
 - Single Inheritance.
+
+## 15-12-2022
+### Design Principle
+- DRY Principle
+- Single Responsibility Principle
+
+## 16-12-2022
+- validate time 24 hrs format example.
+### Design Principle
+- LSP
