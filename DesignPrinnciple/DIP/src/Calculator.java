@@ -1,10 +1,10 @@
 public class Calculator {
     public Calculator(ICalculatorOperation calculatorOperation) {
-        CalculatorOperation = calculatorOperation;
+        this.calculatorOperation = calculatorOperation;
     }
-    public ICalculatorOperation CalculatorOperation;
+    public ICalculatorOperation calculatorOperation;
 
     public double Solve(double x, double y) {
-        return CalculatorOperation.Calculate(x, y);
+        return calculatorOperation.Calculate(x, y);
     }
 }
