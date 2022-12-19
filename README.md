@@ -25,15 +25,19 @@
 
 ## 15-12-2022
 ### Design Principle
-- DRY Principle
-- Single Responsibility Principle
+- Don't Repeat Yourself (DRY)
+- Single Responsibility Principle (SRP)
 
 ## 16-12-2022
 - validate time 24 hrs format example.
 ### Design Principle
-- LSP
+- Liskov Substitution Principle (LSP)
 
 ## 18-12-2022
 ## Design Principle
-- DIP
+- Dependency Inversion Principle (DIP)
+
+## 19-12-2022
+- Open-Closed Principle (OCP)
+- Interface Segregation Principle (ISP)
 
