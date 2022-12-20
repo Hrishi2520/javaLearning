@@ -41,3 +41,6 @@
 - Open-Closed Principle (OCP)
 - Interface Segregation Principle (ISP)
 
+## 20-12-2022
+- Keep it Simple, Stupid (KISS)
+
