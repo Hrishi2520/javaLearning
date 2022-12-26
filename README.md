@@ -44,3 +44,7 @@
 ## 20-12-2022
 - Keep it Simple, Stupid (KISS)
 
+## 26-12-2022
+Collection
+- ArrayListExample
+- LinkedlistExample
