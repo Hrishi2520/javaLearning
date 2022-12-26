@@ -48,3 +48,5 @@
 Collection
 - ArrayListExample
 - LinkedlistExample
+- Queue Example
+- HashSet Example
