@@ -51,3 +51,4 @@ Collection
 - Queue Example
 - HashSet Example
 - LinkedHashSet Example
+- TreeSet Example 
