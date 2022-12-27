@@ -56,4 +56,4 @@ Collection
 ## 27-12-2022
 Collection
 - StackExample
-- StackExample 
+- PriorityQueue Example
