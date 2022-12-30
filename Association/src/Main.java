@@ -16,9 +16,6 @@ public class Main {
 
         System.out.println("This is "+ bank.getBankName()+" International Bank.");
         System.out.println("Employees of the International Kotak bank are as follow: ");
-        Iterator<Employee> iterator = employees.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next().getName());
-        }
+        System.out.println(bank.getEmployees());
     }
 }
