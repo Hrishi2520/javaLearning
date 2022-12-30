@@ -76,4 +76,4 @@ Nested class Example.
 
 ## 30-12-2022
 - Association
-
+- AggregationExample
