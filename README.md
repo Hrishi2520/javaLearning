@@ -80,4 +80,7 @@ Nested class Example.
 - Composition Example
 
 ## 31-12-2022
-- string vs new String Example
+- string and new String Example
+
+## 01-01-2023
+- String Intern Example.
