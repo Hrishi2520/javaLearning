@@ -10,7 +10,7 @@ public class Subscriber {
     private Channel channel = new Channel();
 
     public void update() {
-        System.out.println("Hey "+ name +", Video Uploaded: "+ channel.title);
+        System.out.println("Hey "+ name +", Video Uploaded: "+ channel.title + "\n");
     }
 
     public void subscribeChannel(Channel ch) {

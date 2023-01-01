@@ -9,11 +9,11 @@ public class Channel {
 
     public void subscribe(Subscriber sub) {
         subs.add(sub);
-        System.out.println(sub + " is added as a new subscriber...");
+        System.out.println(sub + " is added as a new subscriber...\n");
     }
     public void unSubscribe(Subscriber sub) {
         subs.remove(sub);
-        System.out.println(sub + " is removed as a subscriber...");
+        System.out.println(sub + " is removed as a subscriber...\n");
     }
 
     public void notifySubscriber() {
