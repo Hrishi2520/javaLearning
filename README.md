@@ -84,3 +84,8 @@ Nested class Example.
 
 ## 01-01-2023
 - String Intern Example.
+## Creational Design Pattern
+- Factory Method Pattern.
+
+## Behavioral Design Pattern
+- Observer Design Pattern.
