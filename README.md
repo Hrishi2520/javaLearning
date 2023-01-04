@@ -90,3 +90,7 @@ Nested class Example.
 ## 02-01-2023
 ## Behavioral Design Pattern
 - Observer Design Pattern.
+- Strategy Pattern.
+
+## 04-01-2023
+- subString Examples
