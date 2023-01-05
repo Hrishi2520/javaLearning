@@ -7,62 +7,69 @@ public class Calender {
         int num = scanner.nextInt();
         Calender.getMonthName(num);
 
-        System.out.println("Enter month name to get days i month: ");
+        System.out.println("\nEnter month name to get days in month: ");
         scanner.nextLine();
         String month = scanner.nextLine();
         Calender.daysInMonth(month);
     }
 
-    public static String getMonthName(int monthNum) {
-        String monthName = "";
+    public static void getMonthName(int monthNum) {
         switch (monthNum) {
-            case 1: monthName = monthName.concat("January");
-            break;
-            case 2: monthName = monthName.concat("February");
-            break;
-            case 3: monthName = monthName.concat("March");
+            case 1:
+                System.out.printf("Entered month number %d is January.\n", monthNum);
                 break;
-            case 4: monthName = monthName.concat("April");
+            case 2:
+                System.out.printf("Entered month number %d is February.\n", monthNum);
                 break;
-            case 5: monthName = monthName.concat("May");
+            case 3:
+                System.out.printf("Entered month number %d is March.\n", monthNum);
                 break;
-            case 6: monthName = monthName.concat("June");
+            case 4:
+                System.out.printf("Entered month number %d is April.\n", monthNum);
                 break;
-            case 7: monthName = monthName.concat("July");
+            case 5:
+                System.out.printf("Entered month number %d is May.\n", monthNum);
                 break;
-            case 8: monthName = monthName.concat("August");
+            case 6:
+                System.out.printf("Entered month number %d is June.\n", monthNum);
                 break;
-            case 9: monthName = monthName.concat("September");
+            case 7:
+                System.out.printf("Entered month number %d is July.\n", monthNum);
                 break;
-            case 10: monthName = monthName.concat("October");
+            case 8:
+                System.out.printf("Entered month number %d is August.\n", monthNum);
                 break;
-            case 11: monthName = monthName.concat("November");
+            case 9:
+                System.out.printf("Entered month number %d is September.\n", monthNum);
                 break;
-            case 12: monthName = monthName.concat("December");
+            case 10:
+                System.out.printf("Entered month number %d is October.\n", monthNum);
+                break;
+            case 11:
+                System.out.printf("Entered month number %d is November.\n", monthNum);
+                break;
+            case 12:
+                System.out.printf("Entered month number %d is December.\n", monthNum);
                 break;
             default:
-                System.out.println("enter input in range 0 -12");
+                System.out.println("enter input in range 1 - 12");
         }
-
-
-        System.out.printf("%d is %S month\n", monthNum, monthName);
-        return monthName;
     }
 
     public static int daysInMonth(String month) {
         int days=0;
         month = month.toLowerCase();
         switch(month) {
-            case "jan":
+            case "january":
                 days = 31;
                 break;
-            case "feb":
+            case "february":
                 days = 28;
                 break;
             case "march":
                 days = 31;
                 break;
-            case "aipril":
+            case "april":
                 days = 31;
                 break;
             case "may":
@@ -71,22 +78,22 @@ public class Calender {
             case "jun":
                 days = 31;
                 break;
-            case "jul":
+            case "july":
                 days = 31;
                 break;
-            case "aug":
+            case "august":
                 days = 31;
                 break;
-            case "sept":
+            case "september":
                 days = 31;
                 break;
-            case "act":
+            case "october":
                 days = 31;
                 break;
-            case "nov":
+            case "november":
                 days = 31;
                 break;
-            case "dec":
+            case "december":
                 days = 31;
                 break;
             default:
