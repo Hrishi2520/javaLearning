@@ -1,103 +1,58 @@
 # javaLearning
 
-## 28-11-2022
+## [28-11-2022](https://github.com/Hrishi2520/javaLearning/tree/main/28%20Nov)
 
-- Print Hello java.
-- Java variable Type's.
-- TypeCasting.
+## [29-11-2022](https://github.com/Hrishi2520/javaLearning/tree/main/29%20Nov)
 
-## 29-11-2022
+## [30-11-2022](https://github.com/Hrishi2520/javaLearning/tree/main/30%20Nov)
 
-- Multithreading with Thread class.
-- Multithreading with runable interface.
+## [11-12-2022](https://github.com/Hrishi2520/javaLearning/tree/main/11%20Dec)
 
-## 30-11-2022
+### [Design Principle](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple)
+- [Dependency Inversion Principle](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/DIP/src)
+- [Don't Repeat Yourself](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/DRY_Principle/src)
+- [Interface Segregation Principle](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/ISP/src)
+- [Keep it Simple, Stupid](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/KISS/src)
+- [Liskov Substitution Principle](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/LSP/src)
+- [Open-Closed Principle](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/OCP/src)
+- [Single Responsibility Principle](https://github.com/Hrishi2520/javaLearning/tree/main/DesignPrinnciple/SRP/src)
 
-- anonymous object  with Calculation class.
-- creating multiple obj of one type.
-- Account Example for Obj creation.
-- Default Constructor and Parameterized Constructor.
-- static method for cube finding.
+## [validate time](https://github.com/Hrishi2520/javaLearning/tree/main/validate%20time/src)
 
-## 11-12-2022
-- Inheritance Example.
-- Single Inheritance.
+## [Collection](https://github.com/Hrishi2520/javaLearning/tree/main/Collection)
+- [ArrayListExample](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/ArrayListExample.java)
+- [HashSet Example](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/HashsetExample.java)
+- [LinkedHashSet Example](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/LinkedHashsetExample.java)
+- [LinkedlistExample](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/LinkedlistExample.java)
+- [PriorityQueue Example](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/PriorityQueueExample.java)
+- [Queue Example](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/QueueExample.java)
+- [TreeSet Example](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/TreeSetExample.java)
+- [StackExample](https://github.com/Hrishi2520/javaLearning/blob/main/Collection/StackExample.java)
 
-## 15-12-2022
-### Design Principle
-- Don't Repeat Yourself (DRY)
-- Single Responsibility Principle (SRP)
 
-## 16-12-2022
-- validate time 24 hrs format example.
-### Design Principle
-- Liskov Substitution Principle (LSP)
 
-## 18-12-2022
-## Design Principle
-- Dependency Inversion Principle (DIP)
-
-## 19-12-2022
-- Open-Closed Principle (OCP)
-- Interface Segregation Principle (ISP)
-
-## 20-12-2022
-- Keep it Simple, Stupid (KISS)
-
-## 26-12-2022
-Collection
-- ArrayListExample
-- LinkedlistExample
-- Queue Example
-- HashSet Example
-- LinkedHashSet Example
-- TreeSet Example
-
-## 27-12-2022
-Collection
-- StackExample
-- PriorityQueue Example
-
-## 28-12-2022
-Object Creation Types.
-- new Keyword
-- CloneMethodExample
-- newInstance() method
-- newInstance() method of Constructor Class
-- Deserialization Method
-- FactoryMethodPattern
-
-## 29-12-2022
-Nested class Example.
-- Inner Class
-- Method_local_Inner_Class
-- Anonymous Inner Class
-- Nested Inner Class
+## [Nested class Example](https://github.com/Hrishi2520/javaLearning/tree/main/Inner%20ClassExamples/Nested_Classes_Types/src)
+- [Anonymous Inner Class](https://github.com/Hrishi2520/javaLearning/tree/main/Inner%20ClassExamples/Nested_Classes_Types/src/Anonymous_Inner_Class/com)
+- [Inner Class](https://github.com/Hrishi2520/javaLearning/tree/main/Inner%20ClassExamples/Nested_Classes_Types/src/InnerClass/com)
+- [Method_local_Inner_Class](https://github.com/Hrishi2520/javaLearning/tree/main/Inner%20ClassExamples/Nested_Classes_Types/src/Method_local_Inner_Class/com)
+- [Staic Nested Class](https://github.com/Hrishi2520/javaLearning/tree/main/Inner%20ClassExamples/Nested_Classes_Types/src/StaticNestedClass/com)
 
 ## 30-12-2022
-- Association
-- AggregationExample
-- Composition Example
+- [Association](https://github.com/Hrishi2520/javaLearning/tree/main/Association/src)
+- [AggregationExample](https://github.com/Hrishi2520/javaLearning/tree/main/AggregationExample/src)
+- [Composition Example](https://github.com/Hrishi2520/javaLearning/tree/main/Composition%20Example/src)
 
-## 31-12-2022
-- string and new String Example
+## [String Basics](https://github.com/Hrishi2520/javaLearning/tree/main/String%20Basics)
 
-## 01-01-2023
-- String Intern Example.
-## Creational Design Pattern
-- Factory Method Pattern.
+## [Behavioral Design Pattern](https://github.com/Hrishi2520/javaLearning/tree/main/Behavioral%20Design%20Pattern/src)
+- [Observer Design Pattern](https://github.com/Hrishi2520/javaLearning/tree/main/Behavioral%20Design%20Pattern/src/ObserverPattern/com)
+- [Strategy Pattern](https://github.com/Hrishi2520/javaLearning/tree/main/Behavioral%20Design%20Pattern/src/StrategyDesignPattern/com)
 
-## 02-01-2023
-## Behavioral Design Pattern
-- Observer Design Pattern.
-- Strategy Pattern.
+## [subString Examples](https://github.com/Hrishi2520/javaLearning/tree/main/SubStringExamples/src)
 
-## 04-01-2023
-- subString Examples
-## 05-01-2023
-## Calender Example
-- calculate days in month.
-- get month name by number.
+## [Calender Example](https://github.com/Hrishi2520/javaLearning/tree/main/Calender/src)
 
-## 017-01-2023
-- [Array List Examples]()
+## [Array List Examples](https://github.com/Hrishi2520/javaLearning/tree/main/ArrayLists/src)
+
+- [grocerylist](https://github.com/Hrishi2520/javaLearning/tree/main/ArrayLists/src/grocerylist)
+- [listExample](https://github.com/Hrishi2520/javaLearning/tree/main/ArrayLists/src/listExample)
