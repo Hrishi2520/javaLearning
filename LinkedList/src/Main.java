@@ -92,7 +92,7 @@ public class Main {
     private static void printItinerary3(LinkedList<String> list) {
         System.out.println("Trip starts at: "+ list.getFirst());
         String previous = list.getFirst();
-        ListIterator<String> itr = list.listIterator();
+        ListIterator<String> itr = list.listIterator(1);
         while(itr.hasNext()) {
             var current = itr.next();
             System.out.println("--> From: "+previous+ " to "+ current);
