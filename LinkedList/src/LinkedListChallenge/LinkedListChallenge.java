@@ -33,7 +33,7 @@ public class LinkedListChallenge {
                 System.out.println("Originating: "+iterator.next());
                 forward = true;
             }
-            if (!iterator.hasNext()) {
+            if (!iterator.hasNext() ) {
                 System.out.println("Final: "+iterator.previous());
                 forward = false;
             }
