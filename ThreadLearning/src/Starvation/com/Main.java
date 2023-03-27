@@ -4,6 +4,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
     private static ReentrantLock lock = new ReentrantLock(true);
+
     public static void main(String[] args) {
         Thread t1 = new Thread(new Worker(ThreadColor.ANSI_RED), "Priority 10");
         Thread t2 = new Thread(new Worker(ThreadColor.ANSI_BLUE), "Priority 8");
@@ -23,6 +24,7 @@ public class Main {
         t4.start();
         t5.start();
     }
+
     private static class Worker implements Runnable {
         private int runCount = 1;
         private String threadColor;
@@ -33,7 +35,7 @@ public class Main {
 
         @Override
         public void run() {
-            for(int i = 0; i < 5; i++) {
+            for (int i = 0; i < 5; i++) {
                 lock.lock();
                 try {
                     System.out.format(threadColor + "%s: runCount = %d\n", Thread.currentThread().getName(), runCount++);
