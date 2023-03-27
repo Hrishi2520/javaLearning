@@ -27,7 +27,7 @@ public class Worker {
 
     public synchronized void work(SharedResource sharedResource, Worker worker) {
         while (active) {
-            if (sharedResource.getOwner() != this) {
+            if (sharedResource.getWorker() != this) {
                 try {
                     wait(10);
                 } catch (InterruptedException e) {
@@ -37,12 +37,12 @@ public class Worker {
             }
             if (worker.isActive()) {
                 System.out.println(getName()+" : give the resource to the worker "+ worker.getName());
-                sharedResource.setOwner(worker);
+                sharedResource.setWorker(worker);
                 continue;
             }
             System.out.println(getName()+": working on the common resource");
             active = false;
-            sharedResource.setOwner(worker);
+            sharedResource.setWorker(worker);
         }
     }
 }
