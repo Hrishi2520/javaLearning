@@ -37,6 +37,7 @@ public class Controller {
             }
         };
         progressBar.progressProperty().bind(task.progressProperty());
+        progressLabel.textProperty().bind(task.messageProperty());
         listView.itemsProperty().bind(task.valueProperty());
     }
     @FXML
