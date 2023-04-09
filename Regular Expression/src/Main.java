@@ -6,17 +6,17 @@ public class Main {
         String yourString = string.replaceAll("I", "You");
         System.out.println(yourString);
 
-        String alphaNumeric = "ajacjksma123132";
+        String alphaNumeric = "Hrishi36-25";
 //        System.out.println(alphaNumeric.replaceAll(".", "Y"));
 
-        System.out.println(alphaNumeric.replaceAll("^ajacjksma", "I am"));
+        System.out.println(alphaNumeric.replaceAll("^i", "*"));
 
-        System.out.println(alphaNumeric.matches("^hello"));
+        System.out.println(alphaNumeric.matches("^36"));
 
-        System.out.println(alphaNumeric.replaceAll("123132$", " you!"));
+        System.out.println(alphaNumeric.replaceAll("36-25$", " 11"));
 
-        System.out.println(alphaNumeric.replaceAll("[aei]", "X"));
+        System.out.println(alphaNumeric.replaceAll("[Hhi]", "X"));
 
-        System.out.println(alphaNumeric.replaceAll("[aei][Fj]", "X"));
+        System.out.println(alphaNumeric.replaceAll("[H][r]", "X"));
     }
 }
