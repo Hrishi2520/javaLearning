@@ -96,5 +96,42 @@ public class Main {
         while (h2TextMatcher.find()) {
             System.out.println("Occurrence: "+h2TextMatcher.group(2));
         }
+
+        System.out.println("harry".replaceAll("[H|h]arry", "Larry"));
+        System.out.println("Harry".replaceAll("[H|h]arry", "Larry"));
+
+        //[^abc]
+        String tvTest = "tstvtkt";
+//        String tNotVRegExp = "t[^v]";
+        String tNotVRegExp = "t(?!v)";
+        Pattern tNotVPattern = Pattern.compile(tNotVRegExp);
+        Matcher tNotVMacher = tNotVPattern.matcher(tvTest);
+
+        count = 0;
+        while (tNotVMacher.find()) {
+            count++;
+            System.out.println("Occurrence: "+ count+ " : "+ tNotVMacher.start() + " to "+ tNotVMacher.end());
+        }
+        // ^({[\(]{1}[0-9]{3}{\)]{1}[]{1}[0-9]{3}[\-]{1}[0-9]{4})$
+        String phone1 = "1234567890"; //should'nt match
+        String phone2 = "(123) 456-7890"; //should match
+        String phone3 = "123 456-7890";
+        String phone4 = "(123)456-7890";
+
+        System.out.println("phone1 = "+phone1.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+        System.out.println("phone1 = "+phone2.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+        System.out.println("phone1 = "+phone3.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+        System.out.println("phone1 = "+phone4.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+
+        // ^4[0-9]{12}([0-9]{3})?$
+        String visa1 = "4444444444444";
+        String visa2 = "5444444444444";
+        String visa3 = "4444444444444444";
+        String visa4 = "4444";
+
+        System.out.println("visa1 "+ visa1.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa2 "+ visa2.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa3 "+ visa3.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa4 "+ visa4.matches("^4[0-9]{12}([0-9]{3})?$"));
     }
 }
