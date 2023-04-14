@@ -82,5 +82,17 @@ public class Main {
         while(matcher12.find()) {
             System.out.println("Occurrence: "+ matcher12.group(1));
         }
+
+        //challenge13
+        String challenge13 = "11111";
+        System.out.println(challenge13.matches("^\\d{5}$"));
+
+        //challenge14
+        String challenge14 = "11111-1111";
+        System.out.println(challenge14.matches("^\\d{5}-\\d{4}$"));
+
+        System.out.println(challenge13.matches("^\\d{5}(-\\d{4})?$"));
+        System.out.println(challenge14.matches("^\\d{5}(-\\d{4})?$"));
+
     }
 }
