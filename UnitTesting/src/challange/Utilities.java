@@ -20,7 +20,7 @@ public class Utilities {
     //"ABBCDEEF" -> "ABCDEF"
     //aren't removed.
     public String removePairs(String source) {
-        if (source.length() < 2) return source;
+        if (source == null || source.length() < 2) return source;
 
         StringBuilder sb = new StringBuilder();
         char[] ch = source.toCharArray();
